@@ -133,6 +133,19 @@
        </layout>
       </item>
       <item>
+       <widget class="QCheckBox" name="cb_clean">
+        <property name="text">
+         <string>Очищать каждый раз?</string>
+        </property>
+        <property name="checked">
+         <bool>true</bool>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout_5"/>
+      </item>
+      <item>
        <widget class="QPushButton" name="but_draw">
         <property name="text">
          <string>Отрисовать</string>
