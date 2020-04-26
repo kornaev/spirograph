@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>890</width>
-    <height>530</height>
+    <width>1108</width>
+    <height>440</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -15,25 +15,33 @@
   </property>
   <widget class="QWidget" name="centralwidget">
    <layout class="QHBoxLayout" name="horizontalLayout_4">
-    <property name="sizeConstraint">
-     <enum>QLayout::SetDefaultConstraint</enum>
-    </property>
     <item>
-     <widget class="QLabel" name="label_out_final">
-      <property name="text">
-       <string>fin</string>
-      </property>
-     </widget>
+     <layout class="QVBoxLayout" name="mwLayout_2">
+      <item>
+       <widget class="QLabel" name="label_out">
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="label_out_final">
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="label_bg">
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+      </item>
+     </layout>
     </item>
     <item>
-     <widget class="QLabel" name="label_out">
-      <property name="text">
-       <string>work</string>
-      </property>
-     </widget>
-    </item>
-    <item>
-     <layout class="QVBoxLayout" name="verticalLayout">
+     <layout class="QVBoxLayout" name="mwLayout">
       <item>
        <layout class="QHBoxLayout" name="horizontalLayout">
         <item>
